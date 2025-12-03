@@ -161,6 +161,52 @@ footer { grid-area: footer; }
 }
 
 .thumbs { max-width: 120px; }
+/* Modal background */
+.modal {
+  display: none; 
+  position: fixed;
+  inset: 0; 
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+  padding-top: 100px;
+}
+
+/* Modal box */
+.modal-content {
+  background: #fff;
+  margin: auto;
+  padding: 20px 30px;
+  width: 90%;
+  max-width: 450px;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+}
+
+/* Close button */
+.close {
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #d00;
+}
+
+/* Modal trigger button */
+.info-btn {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  background: #0075c9;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.info-btn:hover {
+  background: #005fa3;
+}
 
 /* footer */
 .site-footer {
@@ -176,3 +222,4 @@ footer { grid-area: footer; }
     font-size: 0.9em;
     color: var(--color-text);
 }
+
