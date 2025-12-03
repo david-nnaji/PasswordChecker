@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Password Security</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="data/content.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="site-header">
+        <div class="wrap header-wrap">
+            <div class="brand">
+                <img class="logo" src="images/logo.png" alt="passsword logo" />
+                <h1 class="site-title">Password Checker</h1>
+            </div>
+            <nav class="nav">
+                <a href="#password">Password</a>
+                <a href="#why">Why</a>
+                <a href="#mistakes">Mistakes</a>
+                <a href="#tips">Tips</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- password box -->
+    <section id="password" class="password-box">
+        <div class="wrap password-wrap">
+            <h2>Test your password strength:</h2>
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Enter your password"
+            />
+            <div id="strengthMessage">Strength: </div>
+        </div>
+    </section>
+
+    <main class="wrap sections-grid">
+
+        <template id="section-paragraph-template">
+            <section class="section">
+                <h2></h2>
+                <div class="media">
+                    <img src="" alt="" />
+                    <p></p>
+                </div>
+            </section>
+        </template>
+
+      
+        <template id="section-list-template">
+            <section class="section">
+                <h2></h2>
+                <div class="media">
+                    <img src="" alt="" />
+                    <ul></ul>
+                </div>
+            </section>
+        </template>
+    </main>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="wrap footer-wrap">
+            <small>NNAJI © 2025</small>
+        </div>
+    </footer>
+</body>
+</html>
